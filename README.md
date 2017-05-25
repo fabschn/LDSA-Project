@@ -15,6 +15,10 @@ It should produce an output like this:
 
 ## Run it on the cloud instance
 
+Connect to the cloud instance, floating IP:
+
+	130.239.81.63
+
 Make sure the output directory does not exist:
 
 	hdfs dfs -rm -r /user/hduser/crime-types
