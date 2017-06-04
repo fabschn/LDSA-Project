@@ -25,7 +25,7 @@ object SparkCrime {
 						(crimeMonth, 1)
 					}
 					.reduceByKey(_+_)
-					.saveAsTextFile("/mnt/volume/results.txt")
+					.saveAsTextFile("/mnt/volume/results")
 
 		}	
 		finally {
